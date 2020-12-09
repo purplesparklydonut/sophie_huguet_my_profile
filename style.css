@@ -1,0 +1,118 @@
+@import url(effy_ui_kit/button.css);
+@import url(effy_ui_kit/cloudsbanner.css);
+
+body {
+	background-color:#FFEBEB;
+	font-color: #606060;
+	font-family: 'Nunito', sans-serif;
+	font-size: 18px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+	display: inline;
+	margin-right: 2px;
+}
+
+h1 {
+	color: #FF99A0;
+	font-size:43px;
+	text-align: center;
+	letter-spacing: ;
+	font-family:'Pacifico', cursive;
+	letter-spacing: 2px;
+}
+
+h2 {
+	text-align: center;
+	letter-spacing: 1px;
+	font-family:'Pacifico', cursive;
+	font-size: 55px;
+}
+
+h3 {
+	color: #FF5C67;
+	letter-spacing: 4px;
+}
+
+h4 {
+	font-size: 35px;
+}
+
+img {
+	width: 15%;
+  	height: auto;
+  	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	border-radius: 50%;
+  	box-shadow: 0 0 8px 5px #FBCEC5;
+ }
+
+a {
+	text-decoration: none;
+	color: #525252;
+}
+
+a >i {
+	color: #FF99A0;
+}
+
+
+.container { 
+	background-color: #FFE5D4;
+	padding: 5vh;
+	width: 85%;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 4px;
+	box-shadow: 6px 13px 20px #6c584c;
+	text-align: center;
+ }	
+
+ .social_networks {
+ 	margin-bottom: 25px;
+ 	padding: 20px;
+ }
+
+ #flexbox {
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 760px) {
+  .container {
+    width: 500px;
+  }
+  h2 {
+  	font-size: 35px
+  }
+  img {
+  	width: 35%
+  }
+  h1 {
+  	font-size:35px;
+  }
+}
+
+@media (max-width: 560px) {
+  .container {
+    width: 300px;
+  }
+  img {
+  	width:50%;
+  }
+}
+

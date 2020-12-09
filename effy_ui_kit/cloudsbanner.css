@@ -1,0 +1,13 @@
+#banner {
+	background-image: url("../images/picture_background.jpg");
+	background-size: cover;
+	background-position: center;
+	height: 400px;
+	padding: 3px;
+	border-radius: 2px;
+	width: 100%;
+}
+
+#banner >h2 {
+	padding-top: 100px;
+}

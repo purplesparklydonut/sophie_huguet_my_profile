@@ -1,0 +1,19 @@
+.button {
+	background-color:#FF99A0; 
+	text-decoration: none;
+	padding: 3px;
+	border-radius: 5px;
+	text-align: center;
+	width: 250px;
+	margin: auto;
+	color: #B0B5B3;
+	box-shadow: 0 0 0 0 #FF99A0;
+	animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+	to {
+		box-shadow: 0 0 0 13px #D5D7D6;
+	}
+}
+
